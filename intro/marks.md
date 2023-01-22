@@ -7,7 +7,8 @@ Vega creates charts by encoding data on basic shapes called **Marks**.
 
 What makes Vega charts so rich, is that you create a visual by layering these various Marks on top of each other. This sample chart is one simple visual, but is built with 7 separate marks. It gives the designer detailed control over every element in a visual.
 
-![7 marks](7Marks.jpg)
+<img src="https://github.com/somedaygone/deneb-help/blob/main/intro/7Marks.jpg" width="400" />
+
 *From [Workout Wednesday 2023 Week 3](https://github.com/somedaygone/deneb-help/blob/main/Wow/WoW%202023%20Week%203%20Vertical%20Area%20Chart.pbix)*
 
 ## Comparison to Power BI visuals
