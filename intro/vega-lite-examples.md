@@ -11,7 +11,7 @@ Also every example in the [Vega-lite Documentation](https://vega.github.io/vega-
 
 You can also find tons of examples on StackOverflow under the [`[vega-lite]`](https://stackoverflow.com/questions/tagged/vega-lite) and [`[deneb]`](https://stackoverflow.com/questions/tagged/deneb) tags.
 
-The [Vega online editor](https://vega.github.io/editor/#/) has a **Share** button that makes it easy to share a spec. It is best practice to share a link to the spec you are working on when asking for help on [StackOverflow](https://stackoverflow.com/questions/tagged/vega-lite).
+The [Vega online editor](https://vega.github.io/editor/#/) has a **Share** button that makes it easy to share a spec. It is best practice to share a link to the spec you are working on when asking for help on [StackOverflow](https://stackoverflow.com/questions/tagged/vega-lite). For StackOverflow, use the **Copy Markdown Link to Clipboard** button.
 
 ![Editor share](EditorShare.jpg)
 
