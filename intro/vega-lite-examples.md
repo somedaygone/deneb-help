@@ -9,6 +9,8 @@ Also every example in the [Vega-lite Documentation](https://vega.github.io/vega-
 
 ![Documentation example](DocumentationExample.jpg)
 
+The Vega examples are super easy to implement in Deneb. Most will work as-is, though occassionally I'll have to tweak it if the spec is using an older version of Vega. Most often it has been a matter of changing a value from `false` to `null`. For a walkthrough of the process, see my [Deneb Custom Visual in Power BI](https://github.com/somedaygone/deneb-help/blob/main/Wow/Deneb%20Custom%20Visual%20in%20Power%20BI.pptx) PowerPoint presentation.
+
 You can also find tons of examples on StackOverflow under the [`[vega-lite]`](https://stackoverflow.com/questions/tagged/vega-lite) and [`[deneb]`](https://stackoverflow.com/questions/tagged/deneb) tags.
 
 The [Vega online editor](https://vega.github.io/editor/#/) has a **Share** button that makes it easy to share a spec. It is best practice to share a link to the spec you are working on when asking for help on [StackOverflow](https://stackoverflow.com/questions/tagged/vega-lite). For StackOverflow, use the **Copy Markdown Link to Clipboard** button.
