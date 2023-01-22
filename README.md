@@ -20,12 +20,12 @@ This landing page is a high level index to allow you to jump in at whatever leve
 - [High level and common properties](./intro/properties.md)
 
 ---
-#FUTURE DOCUMENTATION:
+# PLACEHOLDER FOR FUTURE DOCUMENTATION:
 
-# Examples
+## Examples
 - [Interactive samples](./examples/interactive.md)
 
-# Going deeper
+## Going deeper
 - [Documenting a spec](./intermediate/documentation.md)
 - [Transforms](./intermediate/transforms.md)
 - [Parameters](./intermediate/parameters.md)
@@ -33,6 +33,6 @@ This landing page is a high level index to allow you to jump in at whatever leve
 - [Layouts](./intermediate/layouts.md)
 - [Data viewer](./intermediate/data.md)
 
-# Advanced
+## Advanced
 - [Vega-lite vs. Vega](./advanced/vega.md)
 - [Signals](./advanced/signals.md)
