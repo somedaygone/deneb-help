@@ -6,17 +6,17 @@ Before Deneb, if you wanted to create your own custom visual, you had to write c
 
 Now with Deneb, custom visuals can be created by savvy power users like you.<sup>[1](#savvy)</sup> It does require writing Vega or Vega-lite code, but if you ever had to create an HTML page for school, it's more like that!
 
-```` 
+```json 
 {
   "description": "A simple bar chart.",
   "data": {"name": "dataset"},
   "mark": "bar",
-  "encoding": {`
+  "encoding": {
     "x": {"field": "a", "type": "nominal"},
     "y": {"field": "b", "type": "quantitative"}
   }
 }
-````
+```
 ---
 [**Home**](../README.md)
 
