@@ -6,7 +6,18 @@ What you need is a Power Query script that will convert your data to JSON. I've 
 Note that I would also add a **Keep Top Rows** step and limit my data to under 20 rows. The more data you have, the longer the link gets, and short links are just less fussy.
 
 ```
-SCRIPT GOES HERE
+// ExportQueryToVega
+let
+    // Change "Your_Query_Name" to the name of your existing query that you want to import into Vega
+    // From Advanced Editor, enter "Source = Products,"
+    // but from the formula bar, just enter "= Products"
+    Source = Your_Query_Name,
+    // It is a good idea to use Keep Top Rows to limit data to less than 20 rows
+    JsonOutput = Json.FromValue(Source),
+    OutputText = Text.FromBinary(JsonOutput),
+    VegaWrap = """data"": {""values"": " & OutputText & " } }"
+in
+    VegaWrap
 ```
 
 ---
