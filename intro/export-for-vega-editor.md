@@ -15,9 +15,41 @@ let
     // It is a good idea to use Keep Top Rows to limit data to less than 20 rows
     JsonOutput = Json.FromValue(Source),
     OutputText = Text.FromBinary(JsonOutput),
-    VegaWrap = """data"": {""values"": " & OutputText & " } }"
+    VegaWrap = """data"": {""values"": " & OutputText & " }"
 in
     VegaWrap
+```
+
+**Sample Output (after reformatting):**
+```json
+  "data": {
+    "values": [
+      {
+        "ProductID": "1",
+        "ProductName": "Chai",
+        "SupplierID": "1",
+        "CategoryID": "1",
+        "QuantityPerUnit": "10 boxes x 20 bags",
+        "UnitPrice": 18.0000,
+        "UnitsInStock": 39,
+        "UnitsOnOrder": 0,
+        "ReorderLevel": 10,
+        "Discontinued": false
+      },
+      {
+        "ProductID": "2",
+        "ProductName": "Chang",
+        "SupplierID": "1",
+        "CategoryID": "1",
+        "QuantityPerUnit": "24 - 12 oz bottles",
+        "UnitPrice": 19.0000,
+        "UnitsInStock": 17,
+        "UnitsOnOrder": 40,
+        "ReorderLevel": 25,
+        "Discontinued": false
+      }
+    ]
+  }
 ```
 
 ---
