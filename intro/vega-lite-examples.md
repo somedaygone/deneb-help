@@ -21,6 +21,7 @@ If you are looking for great Deneb examples, check out:
 - [Kerry Kolosko's blog](https://kerrykolosko.com/category/custom-visualisations/deneb/)
 - [David Bacci's GitHub](https://github.com/PBI-David/Deneb-Showcase)
 - [The Deneb sample file](https://appsource.powerbi.com/deneb.deneb7E15AEF80B9E4D4F8E12924291ECE89A.1.4.0.0.pbix)
+- [PowerBI.tips' collection of Deneb-Templates](https://github.com/PowerBI-tips/Deneb-Templates/tree/main/templates)
 - [My collection of Deneb examples](https://github.com/somedaygone/deneb-help/blob/main/Wow/Deneb%20interactive%20charts.pbix), which includes ones from the Vega site, and some of my favorites from Kerry and David
 
 Other Vega examples:
