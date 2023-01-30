@@ -2,6 +2,16 @@ Files for 	[Workout Wednesdays](https://workout-wednesday.com/), a weekly challe
 
 ## 2023
 
+- [Week 4 Mortgage Rate Chart](https://workout-wednesday.com/pbi-2023-w04/)
+
+<kbd>
+<img src="https://github.com/somedaygone/deneb-help/raw/main/Wow/WoW%202023%20Week%204%20Mortgage%20Rates%20Area%20Chart.jpg" width="600" />
+</kbd>
+
+[Download .pbix](https://github.com/somedaygone/deneb-help/raw/main/Wow/WoW%202023%20Week%204%20Mortgage%20Rates%20Area%20Chart.pbix)
+
+https://github.com/somedaygone/deneb-help/blob/6c7ea1943af6bd32a4951a4cd752a539bacbe7b3/Wow/WoW%202023%20Week%204%20Mortgage%20Rates%20Area%20Chart.json#L1-L124
+
 - [Week 3 Vertical Area Chart](https://workout-wednesday.com/pbi-2023-w03/)
 
 <kbd>
@@ -10,13 +20,7 @@ Files for 	[Workout Wednesdays](https://workout-wednesday.com/), a weekly challe
 
 [Download .pbix](https://github.com/somedaygone/deneb-help/raw/main/Wow/WoW%202023%20Week%203%20Vertical%20Area%20Chart.pbix)
 
-- [Week 4 Mortgage Rate Chart](https://workout-wednesday.com/pbi-2023-w04/)
-
-<kbd>
-<img src="https://github.com/somedaygone/deneb-help/raw/main/Wow/WoW%202023%20Week%204%20Mortgage%20Rates%20Area%20Chart.jpg" width="600" />
-</kbd>
-
-[Download .pbix](https://github.com/somedaygone/deneb-help/raw/main/Wow/WoW%202023%20Week%204%20Mortgage%20Rates%20Area%20Chart.pbix)
+https://github.com/somedaygone/deneb-help/blob/6c7ea1943af6bd32a4951a4cd752a539bacbe7b3/Wow/WoW%202023%20Week%203%20Vertical%20Area%20Chart.json#L1-L201
 
 ## Miscellaneous
 
