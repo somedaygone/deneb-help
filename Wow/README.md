@@ -1,6 +1,15 @@
 Files for 	[Workout Wednesdays](https://workout-wednesday.com/), a weekly challenge to re-create data-driven visualizations.
 
 ## 2023
+- [Week 5 Oscars Isotype](https://workout-wednesday.com/pbi-2023-w05/)
+
+<kbd>
+<img src="https://github.com/somedaygone/deneb-help/raw/main/Wow/WoW%202023%20Week%205%20Oscars%20Isotype.jpg" width="600" />
+</kbd>
+
+[Download .pbix](https://github.com/somedaygone/deneb-help/raw/main/Wow/WoW%202023%20Week%205%20Oscars%20Isotype.pbix)
+
+https://github.com/somedaygone/deneb-help/blob/1bf0ff7abb8070182395ac0eb308421a37d2fe60/Wow/WoW%202023%20Week%205%20Oscars%20Isotype.json#L1-L39
 
 - [Week 4 Mortgage Rate Chart](https://workout-wednesday.com/pbi-2023-w04/)
 
