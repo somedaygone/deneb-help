@@ -1,0 +1,72 @@
+{
+  "view": {"stroke": "transparent"},
+  "font": "Segoe UI",
+  "arc": {},
+  "area": {
+    "line": true,
+    "opacity": 0.6
+  },
+  "bar": {},
+  "line": {
+    "strokeWidth": 3,
+    "strokeCap": "round",
+    "strokeJoin": "round"
+  },
+  "path": {},
+  "point": {"filled": true, "size": 75},
+  "rect": {},
+  "shape": {},
+  "symbol": {
+    "strokeWidth": 1.5,
+    "size": 50
+  },
+  "text": {
+    "font": "Segoe UI",
+    "fontSize": 12,
+    "fill": "#605E5C"
+  },
+  "axis": {
+    "ticks": false,
+    "grid": false,
+    "domain": false,
+    "labelFont": "Trebuchet MS",
+    "labelColor": "#605E5C",
+    "labelFontSize": 24,
+    "labelWeight": "bold",
+    "labelLimit": 400,
+    "labelBaseline": "top",
+    "labelOffset": 14,
+    "labelLineHeight": 10,
+    "titleFont": "wf_standard-font, helvetica, arial, sans-serif",
+    "titleColor": "#252423",
+    "titleFontSize": 16,
+    "titleFontWeight": "normal"
+  },
+  "axisQuantitative": {
+    "tickCount": 3,
+    "grid": true,
+    "gridColor": "#C8C6C4",
+    "gridDash": [1, 5],
+    "labelFlush": false
+  },
+  "axisX": {"labelPadding": 5},
+  "axisY": {"labelPadding": 10},
+  "header": {
+    "titleFont": "wf_standard-font, helvetica, arial, sans-serif",
+    "titleFontSize": 16,
+    "titleColor": "#252423",
+    "labelFont": "Segoe UI",
+    "labelFontSize": 14,
+    "labelColor": "#605E5C"
+  },
+  "legend": {
+    "titleFont": "Segoe UI",
+    "titleFontWeight": "bold",
+    "titleColor": "#605E5C",
+    "labelFont": "Segoe UI",
+    "labelFontSize": 14,
+    "labelColor": "#605E5C",
+    "symbolType": "circle",
+    "symbolSize": 75
+  }
+}
