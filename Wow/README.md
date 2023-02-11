@@ -1,6 +1,16 @@
 Files for 	[Workout Wednesdays](https://workout-wednesday.com/), a weekly challenge to re-create data-driven visualizations.
 
 ## 2023
+- [Week 6 Calendar Heatmap](https://workout-wednesday.com/pbi-2023-w06/)
+
+<kbd>
+<img src="https://github.com/somedaygone/deneb-help/raw/main/Wow/WoW%202023%20Week%206%20Calendar%20Heatmap.jpg" width="600" />
+</kbd>
+
+[Download .pbix](https://github.com/somedaygone/deneb-help/raw/main/Wow/WoW%202023%20Week%206%20Calendar%20Heatmap.pbix)
+
+https://github.com/somedaygone/deneb-help/blob/c7e64589f74affab8b9c17bc093ac7379cb84b93/Wow/WoW%202023%20Week%206%20Calendar%20Heatmap.json#L1-L66
+
 - [Week 5 Oscars Isotype](https://workout-wednesday.com/pbi-2023-w05/)
 
 <kbd>
