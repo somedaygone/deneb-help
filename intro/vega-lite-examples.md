@@ -19,11 +19,24 @@ The [Vega online editor](https://vega.github.io/editor/#/) has a **Share** butto
 
 If you are looking for great Deneb examples, check out:
 - [Kerry Kolosko's blog](https://kerrykolosko.com/category/custom-visualisations/deneb/) and [templates](https://kerrykolosko.com/portfolio-category/deneb-templates/)
+- [Thys' templates](https://thysvdw.github.io/templates/)
+- - [Thys](https://twitter.com/ThysvdW) has been prolific on Twitter recreating dashboards in Deneb. You can purchase some of his work on [BuyMeACoffee](https://www.buymeacoffee.com/thysvdwu).
 - [David Bacci's GitHub](https://github.com/PBI-David/Deneb-Showcase)
 - [The Deneb sample file](https://appsource.powerbi.com/deneb.deneb7E15AEF80B9E4D4F8E12924291ECE89A.1.4.0.0.pbix)
+- [Shad Frigui's GitHub](https://github.com/shadfrigui/vega-lite) (See folders for code)
 - [PowerBI.tips' collection of Deneb-Templates](https://github.com/PowerBI-tips/Deneb-Templates/tree/main/templates)
 - - See also [How to import and export deneb templates](https://www.youtube.com/watch?v=fPVQRHyWZrc)
+- [Enterprise DNA's Deneb Showcase](https://forum.enterprisedna.co/c/deneb-showcase/58)
 - [My collection of Deneb examples](https://github.com/somedaygone/deneb-help/blob/main/Wow/Deneb%20interactive%20charts.pbix), which includes ones from the Vega site, and some of my favorites from Kerry and David
+
+YouTube:
+- [Deneb Introduction](https://www.youtube.com/watch?v=gYAQpxvzcKE) Interview with creator Daniel Marsh-Patrick
+- [Hoosier BI](https://www.youtube.com/@hoosierbi5669/search?query=deneb)
+- [PowerBI Guy](https://www.youtube.com/@PowerBIGuy/search?query=deneb)
+- [Workout Wednesday](https://www.youtube.com/@workoutwednesday5713/search?query=deneb)
+- [Havens Consulting](https://www.youtube.com/@HavensConsulting/search?query=deneb)
+- [Enterprise DNA](https://www.youtube.com/@EnterpriseDNA/search?query=deneb)
+- [Jose Rafael Escalante](https://www.youtube.com/c/SentidoAnal%C3%ADtica) (In Spanish)
 
 Other Vega examples:
 - [Vega Cook Book](https://github.com/aezarebski/vegacookbook) replicates BBC infographics
