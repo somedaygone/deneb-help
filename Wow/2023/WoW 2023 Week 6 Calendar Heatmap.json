@@ -1,0 +1,66 @@
+{
+  "data": {"name": "dataset"},
+  "title": "2022 Daily Max Temperature (°F)",
+  "mark": {
+    "type": "bar",
+    "cornerRadius": 1,
+    "tooltip": true
+  },
+  "height": 43,
+  "width": 120,
+  "encoding": {
+      "row": {
+        "field": "DATE",
+        "timeUnit": "month",
+        "type": "nominal",
+        "title": null,
+        "spacing": 0,
+        "header": {
+          "labelAngle": 0,
+          "labelAlign": "left"
+        }
+      },
+      "column": {
+        "field": "NAME",
+        "type": "nominal",
+        "title": null,
+        "sort": {
+          "field": "LATITUDE",
+          "order": "descending"
+        }
+      },
+      "y": {
+          "field": "DATE",
+          "timeUnit": "week",
+          "type": "ordinal",
+          "title": null,
+          "axis": null
+      },
+      "x": {
+          "field": "DATE",
+          "timeUnit": "day",
+          "type": "ordinal",
+          "title": null,
+          "axis": {
+            "labelExpr": "datum.label[0]",
+            "orient": "top"
+          }
+      },
+      "color": {
+          "field": "TMAX",
+          "type": "quantitative",
+           "scale": {"scheme": "turbo"},
+          "legend": {
+              "title": "Max Temperature (°F)"
+          }
+      },
+      "tooltip": {
+        "field": "TMAX",
+        "format": ".0f"
+      }
+  },
+  "resolve": {
+    "axis": {"y": "independent"},
+    "scale": {"y": "independent"}
+  }
+}
