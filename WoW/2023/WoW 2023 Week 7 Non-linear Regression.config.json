@@ -1,0 +1,51 @@
+{
+  "view": {
+    "stroke": "transparent",
+    "continuousWidth": 245,
+    "continuousHeight": 245
+  },
+  "font": "Segoe UI",
+  "line": {
+    "strokeWidth": 3,
+    "strokeCap": "round",
+    "strokeJoin": "round"
+  },
+  "point": {"filled": true, "size": 75},
+  "symbol": {
+    "strokeWidth": 1.5,
+    "size": 50
+  },
+  "text": {
+    "fontSize": 24,
+    "fontWeight": "bold"
+  },
+  "title": {
+    "fontSize": 18,
+    "anchor": "start"
+  },
+  "axis": {
+    "ticks": true,
+    "grid": true,
+    "domain": false,
+    "labelFontSize": 16,
+    "titleFontSize": 18,
+    "titleFontWeight": "bold"
+  },
+  "axisQuantitative": {
+    "tickCount": 3,
+    "grid": true,
+    "labelFlush": false
+  },
+  "axisX": {"labelPadding": 5},
+  "axisY": {"labelPadding": 10},
+  "header": {
+    "titleFontSize": 16,
+    "labelFontSize": 14
+  },
+  "legend": {
+    "titleFontWeight": "bold",
+    "labelFontSize": 14,
+    "symbolType": "circle",
+    "symbolSize": 75
+  }
+}
