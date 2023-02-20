@@ -1,0 +1,124 @@
+{
+  "title": {
+    "text": "Mortgage Rates are on the rise since 2022",
+    "subtitle": "Monthly Average Mortgage Rate",
+    "anchor": "start"
+  },
+  "data": {"name": "dataset"},
+  "vconcat": [
+    {
+      "description": "Stacked area chart of historical rates for 30 and 15 year mortgages",
+      "width": 800,
+      "mark": {"type": "area"},
+      "encoding": {
+        "x": {
+          "field": "Date",
+          "type": "temporal",
+          "axis": {"title": null}
+        },
+        "y": {
+          "field": "Rate",
+          "type": "quantitative",
+          "stack": null,
+          "axis": {
+            "title": "Rate",
+            "format": ".0p"
+          }
+        },
+        "color": {
+          "field": "Term",
+          "scale": {"range": ["blue","gray"]}
+        }
+      }
+    },
+    {
+      "layer": [
+        {
+          "title": {
+            "text": "Increased benefit of a 15 year mortgage since 2021",
+            "subtitle": "Difference in rate between a 30 year and 15 year term",
+            "anchor": "start"
+          },
+          "description": "Avereage variance rule line: 30 year vs 15 year term",
+          "mark": {
+            "type": "rule",
+            "color": "red",
+            "strokeWidth": 3
+          },
+          "encoding": {
+            "y": {
+              "aggregate": "mean",
+              "field": "30vs15",
+              "type": "quantitative"
+            }
+          }
+        },
+        {
+          "description": "Avereage variance rule label: 30 year vs 15 year term",
+          "mark": {
+            "type": "text",
+            "color": "red",
+            "fontSize": 14,
+            "fontWeight": "bold",
+            "align": "left",
+            "baseline": "middle",
+            "dx": 410,
+            "dy": 0
+          },
+          "encoding": {
+            "y": {
+              "aggregate": "mean",
+              "field": "30vs15",
+              "type": "quantitative"
+            },
+            "text": {
+              "aggregate": "mean",
+              "field": "30vs15",
+              "type": "quantitative",
+              "format": ".2p"
+            }
+          }
+        },
+        {
+          "description": "Variance line: 30 year vs 15 year term",
+          "width": 800,
+          "height": 100,
+          "mark": {
+            "type": "line",
+            "color": "black",
+            "tooltip": true
+          },
+          "encoding": {
+            "x": {
+              "field": "Date",
+              "type": "temporal",
+              "axis": {
+                "title": null
+              }
+            },
+            "y": {
+              "field": "30vs15",
+              "type": "quantitative",
+              "axis": {
+                "title": null,
+                "format": ".1p"
+              },
+              "scale": {"zero": false}
+            },
+            "tooltip": [
+              {
+                "field": "Date",
+                "type": "temporal"
+              },
+              {
+                "field": "30vs15",
+                "type": "quantitative",
+                "format": ".2p"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
