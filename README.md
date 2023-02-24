@@ -19,6 +19,10 @@ This landing page is a high level index to allow you to jump in at whatever leve
 - [Power Query data export](./intro/export-for-vega-editor.md)
 - [High level and common properties](./intro/properties.md)
 
+## Going deeper
+- [Number formatting](./intermediate/number-formatting.md)
+- [Conditional formatting](./intermediate/conditional-formatting.md)
+
 ---
 # PLACEHOLDER FOR FUTURE DOCUMENTATION:
 
@@ -28,7 +32,6 @@ This landing page is a high level index to allow you to jump in at whatever leve
 ## Going deeper
 - [Documenting a spec](./intermediate/documentation.md)
 - [Transforms](./intermediate/transforms.md)
-- [Number formatting](./intermediate/number-formatting.md)
 - [Parameters](./intermediate/parameters.md)
 - [Config](./intermediate/config.md)
 - [Layouts](./intermediate/layouts.md)
