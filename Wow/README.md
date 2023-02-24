@@ -1,6 +1,10 @@
 Files for 	[Workout Wednesdays](https://workout-wednesday.com/), a weekly challenge to re-create data-driven visualizations.
 
 ## 2023
+- [Week 8 Interactive Resume](https://workout-wednesday.com/pbi-2023-w08/)  
+*No Deneb involved this week*  
+[Download .pbix](https://github.com/somedaygone/deneb-help/blob/main/Wow/2023/WoW%202023%20Week%208%20Interactive%20Resume.pbix)
+
 - [Week 7 Non-Linear Regression](https://workout-wednesday.com/2023-week-07-power-bi-non-linear-regression/)  
 <kbd>
 <img src="2023/WoW%202023%20Week%207%20Non-linear%20Regression.jpg" width="600" />
