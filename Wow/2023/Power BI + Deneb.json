@@ -1,0 +1,125 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "height": 300,
+  "width": 300,
+  "description": "Star mapping. Earth viz modified from https://vega.github.io/vega-lite/examples/interactive_geo_earthquakes.html. Star data from https://theskylive.com/sky/constellations/cygnus-bright-stars.",
+  "projection": {
+    "type": "orthographic",
+    "rotate": {"expr": "[long, lat, 0]"}
+  },
+  "params": [
+    {
+      "name": "long",
+      "value": -75,
+      "bind": {
+        "input": "range",
+        "min": -90,
+        "max": 90,
+        "step": 1
+      }
+    },
+    {
+      "name": "lat",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": -90,
+        "max": 90,
+        "step": 1
+      }
+    },
+    {
+      "name": "size",
+      "value": 10,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 12,
+        "step": 0.1
+      }
+    }
+  ],
+  "layer": [
+    {
+      "description": "Earth. Just a ball.",
+      "data": {"sphere": true},
+      "mark": {
+        "type": "geoshape",
+        "fill": "111"
+      }
+    },
+    {
+      "description": "Countries drawn on the ball",
+      "data": {
+        "name": "world",
+        "url": "https://vega.github.io/vega-lite/data/world-110m.json",
+        "format": {
+          "type": "topojson",
+          "feature": "countries"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#222",
+        "stroke": "black"
+      }
+    },
+    {
+      "description": "Stars",
+      "data": {"name": "dataset"},
+      "transform": [
+        {
+          "filter": "(long * -1) - 90 < datum['longitude'] && datum['longitude'] < (long * -1) + 90 && (lat * -1) - 90 < datum['latitude'] && datum['latitude'] < (lat * -1) + 90"
+        }
+      ],
+      "mark": {
+        "type": "circle",
+        "opacity": 1
+      },
+      "encoding": {
+        "longitude": {
+          "field": "longitude",
+          "type": "quantitative"
+        },
+        "latitude": {
+          "field": "latitude",
+          "type": "quantitative"
+        },
+        "size": {
+          "legend": null,
+          "field": "magnitude",
+          "type": "quantitative",
+          "scale": {
+            "type": "sqrt",
+            "domain": [0, 100],
+            "range": [
+              0,
+              {"expr": "pow(size, 3)"}
+            ]
+          }
+        },
+        "color": {
+          "field": "color",
+          "type": "nominal",
+          "legend": null,
+          "scale": null
+        },
+        "tooltip": [
+          {
+            "field": "name",
+            "title": "Star"
+          },
+          {
+            "field": "mag",
+            "title": "Magnitude",
+            "format": "0.2f"
+          },
+          {
+            "field": "letter",
+            "title": "Bayer"
+          }
+        ]
+      }
+    }
+  ]
+}
