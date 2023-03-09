@@ -1,6 +1,16 @@
-Files for 	[Workout Wednesdays](https://workout-wednesday.com/), a weekly challenge to re-create data-driven visualizations.
+Files for 	[Workout Wednesdays](https://workout-wednesday.com/), a weekly challenge to re-create data-driven visualizations  
+and other viz challenges.
 
 ## 2023
+- [Microsoft's Power BI T-Shirt Design Challenge 2023](https://community.powerbi.com/t5/T-Shirt-Design-Challenge-2023/Power-BI-Deneb/cns-p/3120517)
+<kbd>
+<img src="2023/Power BI + Deneb.png" width="600" />
+</kbd>  
+
+[Download .pbix](https://github.com/somedaygone/deneb-help/blob/main/Wow/2023/Power%20BI%20%2B%20Deneb.pbix)
+
+https://github.com/somedaygone/deneb-help/blob/07e896d117a31e1c62f1b214fe99f204a769c4c4/Wow/2023/Power%20BI%20%2B%20Deneb.json#L1-L125
+
 - [Week 8 Interactive Resume](https://workout-wednesday.com/pbi-2023-w08/)  
 *No Deneb involved this week*  
 [Download .pbix](https://github.com/somedaygone/deneb-help/blob/main/Wow/2023/WoW%202023%20Week%208%20Interactive%20Resume.pbix)
