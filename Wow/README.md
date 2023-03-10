@@ -4,7 +4,7 @@ and other viz challenges.
 ## 2023
 - [Microsoft's Power BI T-Shirt Design Challenge 2023](https://community.powerbi.com/t5/T-Shirt-Design-Challenge-2023/Power-BI-Deneb/cns-p/3120517)
 <kbd>
-<img src="2023/Power BI + Deneb.png" width="600" />
+<img src="2023/Power BI + Deneb v2.png" width="600" />
 </kbd>  
 
 [Download .pbix](https://github.com/somedaygone/deneb-help/blob/main/Wow/2023/Power%20BI%20%2B%20Deneb.pbix)
